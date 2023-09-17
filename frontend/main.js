@@ -1,19 +1,16 @@
-window.addEventListener('DOMConectLoads', (event) =>{
+window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
-})
-
-const funcationAPi = '';
-
-const getVisitCount = () => {
-    let count =30;
-    fetch(functionApi).then(response => {
-        return Response.json()
-    }).then(response =>{
-        console.log("Website called functionAPI");
-        count = response.count;
-        document.getElementById("counter").innertext = count;
-    }).catch(function(error){
-        console.log(error);
-    });
-    return count;
-}
+  });
+  
+  const functionApi = 'http://localhost:7071/api/GetCVCounter';
+  
+  const getVisitCount = async () => {
+    try {
+      const response = await fetch(functionApi);
+      const jsonResponse = await response.json();
+      const count = jsonResponse.count;
+      document.getElementById('counter').innerHTML = count;
+    } catch (error) {
+      console.log(error);
+    }
+  };
