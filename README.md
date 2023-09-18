@@ -10,3 +10,10 @@ Azure website project
 
 - New repo as large file issues
 - .cs fixes for DB issues
+
+
+
+
+## To add
+
+- A serverless function that generates a personalized greeting for each visitor to your website. 
