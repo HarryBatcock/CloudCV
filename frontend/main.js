@@ -2,8 +2,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
   });
   
-  const functionApi = 'http://localhost:7071/api/GetCVCounter';
-  
+  const functionApi = 'https://cvsitefunction.azurewebsites.net/api/GetCVCounter?code=V1nNRCEYhmBayN5XwkXmUFg8psWcvPnTNYKFyAkjnvpwAzFudnOitw==';
+  const localfunctionApi = 'http://localhost:7071/api/GetCVCounter';
+
   const getVisitCount = async () => {
     try {
       const response = await fetch(functionApi);
