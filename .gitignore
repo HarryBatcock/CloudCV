@@ -1,3 +1,8 @@
 dotnet-sdk-6.0.413-linux-arm64.tar.gz
 dotnet-sdk-7.0.413-linux-arm64.tar.gz
 sdk/
+shared/
+sdk-manifests/
+templates/
+host/
+packs/
