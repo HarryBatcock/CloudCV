@@ -23,7 +23,7 @@ namespace Company.Function
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            // Check if inputCounter is null - T
+            // Check if inputCounter is null - A
             if (inputCounter == null)
             {
                 // Create a new VisitCounter object with count set to 0
