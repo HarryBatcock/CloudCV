@@ -11,7 +11,10 @@ Azure website project
 - New repo as large file issues
 - .cs fixes for DB issues
 
+## 2
 
+- Github actions now working for frontend
+- Site is live with custom domain
 
 
 ## To add
