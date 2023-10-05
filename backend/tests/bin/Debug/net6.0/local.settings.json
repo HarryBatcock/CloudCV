@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureCVConnectionString": "AccountEndpoint=https://cvdatabase.documents.azure.com:443/;AccountKey=cKhe477C7A7kXctrBzzeJWiBq6XPt3LkjTo2hyBukXwgTb4MwTOoSPstYebypr7pUdJoc6HuMYQBACDbk4wqhw==;",
+    "CosmosDbEndpointUrl": "https://cvdatabase.documents.azure.com:443/",
+    "AuthorizationKey": "cKhe477C7A7kXctrBzzeJWiBq6XPt3LkjTo2hyBukXwgTb4MwTOoSPstYebypr7pUdJoc6HuMYQBACDbk4wqhw=="
+  },
+    "Host":
+    {
+      "CORS": "*"
+    }
+}
